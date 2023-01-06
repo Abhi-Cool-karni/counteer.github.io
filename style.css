@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 100px 40px;
+  gap: 9px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Counter"
+    "count"
+    "Buttons";
+}
+
+.button-container {
+  grid-area: Buttons;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  height: 25px;
+  padding: 2px;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#value {
+  grid-area: count;
+  font-size: 100px;
+}
+
+#value,
+.counter {
+  text-align: center;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  grid-area: Counter;
+}
