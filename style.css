@@ -30,10 +30,10 @@
 }
 
 .btn {
-     height: 29px;
-    width: -webkit-fill-available;
-    padding: 2px;
-    margin: 5px;
+  height: 29px;
+  width: -webkit-fill-available;
+  padding: 2px;
+  margin: 5px;
   background: transparent;
   border: 2px solid black;
   border-radius: 5px;
