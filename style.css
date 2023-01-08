@@ -42,6 +42,7 @@
 .btn:hover {
   background: black;
   color: white;
+  cursor: pointer;
 }
 
 #value {
