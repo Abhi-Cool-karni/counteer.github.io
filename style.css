@@ -39,6 +39,11 @@
   border-radius: 5px;
 }
 
+.btn:hover {
+  background: black;
+  color: white;
+}
+
 #value {
   grid-area: count;
   font-size: 100px;
